@@ -11,7 +11,7 @@ window.onload = function () {
   });
 };
 var typingElement = document.querySelector(".typing-text");
-var typeArray = ["am a UC Berkeley Undergrad.", "study computer science and data science.", "am a video game fanatic.", "love building computers.", ];
+var typeArray = ["am a UC Berkeley Undergrad.", "study computer science and data science.","love building computers.", "am a video game fanatic." ];
 var index = 0,
   isAdding = true,
   typeIndex = 0;
