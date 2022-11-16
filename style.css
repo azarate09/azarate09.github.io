@@ -237,3 +237,38 @@ a {
 .loader span:nth-child(22) {
   -webkit-animation-delay: 2.1s;
 }
+
+.typing-container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.typing-text {
+  color: white;
+}
+
+.typing-text::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .typing-container {
+    font-size: 1.5rem;
+  }
+}
