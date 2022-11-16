@@ -244,12 +244,12 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
-  color: whitesmoke;
+  color: #faebd7;
   font-size: 2rem;
 }
 
 .typing-text {
-  color: white;
+  color: #faebd7;
 }
 
 .typing-text::after {
