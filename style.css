@@ -239,7 +239,7 @@ a {
 }
 
 .typing-container {
-  font-family: "ROBOTO", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   width: 100%;
   text-align: center;
   display: flex;
@@ -249,7 +249,7 @@ a {
 }
 
 .typing-text {
-  color: #faebd7;
+  color: #f8f1ee;
 }
 
 .typing-text::after {
