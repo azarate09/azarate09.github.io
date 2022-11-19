@@ -28,13 +28,13 @@ body {
   margin: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 0.5rem;
-  color: #03dac6;
+  color: #80bbff;
   transition: all 0.3s ease;
   z-index: 3;
 }
 h1:hover {
   transform: translate3d(0, -10px, 22px);
-  color: #ff0266;
+  color: #66ccff;
 }
 
 .slider h2 {
@@ -42,7 +42,7 @@ h1:hover {
   letter-spacing: 0.3rem;
   font-family: "ROBOTO", sans-serif;
   font-weight: 300;
-  color: #faebd7;
+  color: #f8f1ee;
   z-index: 4;
 }
 h3.span {
@@ -91,7 +91,7 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: #03dac6;
+  color: #66ccff;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 2vw;
@@ -108,7 +108,7 @@ a {
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #03dac6;
+  background: #66ccff;
   transition: left 0.3s ease;
 }
 .background {
@@ -244,7 +244,7 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
-  color: #faebd7;
+  color: #f8f1ee;
   font-size: 2rem;
 }
 
